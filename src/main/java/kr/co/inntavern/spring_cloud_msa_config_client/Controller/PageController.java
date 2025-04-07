@@ -5,10 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/msa")
 public class PageController {
-    @GetMapping("/first")
+    @GetMapping("/msa/first")
     public String testPage(){
-        return "Hello World! Spring Cloud MSA Config Client!";
+        return "MSA first";
     }
 }
